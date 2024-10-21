@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página 2</title>
-    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="estilo.css">
 </head>
+
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
@@ -13,13 +16,13 @@
             <div>
                 <ul class="navbar-nav me-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="pagina1.html">Página 1</a>
+                        <a class="nav-link" href="página_1.html">Página 1</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link current" href="#">Página 2</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="pagina3.html">Página 3</a>
+                        <a class="nav-link" href="página_3.html">Página 3</a>
                     </li>
                 </ul>
             </div>
@@ -27,43 +30,45 @@
     </nav>
 
     <div class="container mt-5">
-        <h1>Bienvenido a la Página 2</h1>
-        <p>Esta página está dedicada a mostrar datos interesantes sobre la tecnología actual.</p>
-        <p>Vivamus a turpis nec elit cursus efficitur sit amet ac nunc. Curabitur vel dolor ut mi vulputate eleifend non eget nisi.</p>
-        <p>Cras volutpat nulla ut purus fermentum, sit amet laoreet purus condimentum.</p>
-        
+        <h1>Mushoku Tensei: Old Dragon's Tale.</h1>
+        <p>Es una novela web relacionada con la serie principal de "Mushoku Tensei". Está completamente traducida y consta de 23 capítulos.</p>
+        <p>Esta obra explora historias vinculadas a personajes como Laplace y Orsted, así como a la tribu de dragones. </p>
+        <p>El Dragón Antiguo: Un dragón sabio y poderoso que puede tomar forma humana. Su historia y experiencias pasadas son el núcleo de la narrativa.</p>
+
         <div class="row">
             <div class="col">
-                <img src="https://via.placeholder.com/300" alt="Imagen 1">
+                <img src="imagenes/Orsted.jpg" alt="Imagen 1">
             </div>
             <div class="col">
-                <img src="https://via.placeholder.com/300" alt="Imagen 2">
+                <img src="imagenes/Lara.jpg" alt="Imagen 2">
             </div>
             <div class="col">
-                <img src="https://via.placeholder.com/300" alt="Imagen 3">
+                <img src="imagenes/Sieg.jpg" alt="Imagen 3">
             </div>
         </div>
 
-        <!-- Componente Bootstrap: Accordion -->
         <div class="accordion mt-5" id="accordionExample">
             <div class="accordion-item">
                 <h2 class="accordion-header" id="headingOne">
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                        Sección 1
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        El viejo dragón
                     </button>
                 </h2>
-                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample">
                     <div class="accordion-body">
-                        Información interesante sobre la tecnología de hoy en día.
+                        La historia explora temas como la longevidad y la sabiduría de un ser que ha vivido durante siglos, así como sus interacciones con otros personajes y eventos del mundo. Aunque se centra en un personaje distinto, sigue manteniendo el estilo y la profundidad temática que caracteriza a la obra original de "Mushoku Tensei".
                     </div>
                 </div>
             </div>
         </div>
 
-        
-        <h2 class="mt-4">Tecnologías emergentes <span class="badge bg-info">Nuevas</span></h2>
+
+        <h2 class="mt-4">Historias interesantes <span class="badge bg-info">Nuevas</span></h2>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
